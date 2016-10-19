@@ -1,7 +1,7 @@
 # Личный проект «Девайс»
 
 * Студент: [Савелий Касперских](https://up.htmlacademy.ru/htmlcss/15/user/113981).
-* Наставник: `Неизвестно`.
+* Наставник: [Максим Фарига](https://htmlacademy.ru/profile/maximfariga).
 
 ---
 
