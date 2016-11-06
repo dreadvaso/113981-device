@@ -51,8 +51,8 @@
   width: 440px;
 }
 .user-block-menu {
+  /* Ограничить по ширине, чтобы не стал больше доступной ширины и не прыгнул вниз */
   float: right;
-  width: 500px;
   margin-bottom: 45px;
 }
 .user-block-login {
@@ -130,8 +130,6 @@
   width: 260px;
   height: 100px;
   margin-right: 40px;
-  
-  vertical-align: top;
 }
 .brands-item:last-child {
   margin-right: 0;
@@ -149,7 +147,7 @@
   background: #ffffff url("../img/vive.png") no-repeat center;
 }
 .about-shop {
-  margin-bottom: 90px;
+  
 }
 .about-us {
   float: left;
@@ -162,6 +160,7 @@
 .main-footer {
   padding: 0 9999px;
   margin: 0 -9999px;
+  margin-top: 90px;
   padding-bottom: 60px;
   background: #464646;
 }
@@ -190,14 +189,10 @@
 }
 .copyright {
   float: right;
-  width: 60px;
-  margin-top: -35px; /* для того, чтобы стоял наравне с соц..сетями */
+  /* Ограничить по ширине и стоит не в той же полосе что и соц сети */
 }
 .breadcrumbs {
   margin-bottom: 45px;
-}
-.ware {
-  margin-bottom: 90px;
 }
 .products-filter {
   float: left;
@@ -240,3 +235,4 @@
 .pagination {
   font-size: 16px;
 }
+/* Одно общее замечание: отступы лучше делать верхним элементам вниз, чем нижним вверх */
