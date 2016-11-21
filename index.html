@@ -57,7 +57,7 @@
 
         <main>
           <div class="slider">
-            <input type="radio" id="btn-1" name="toggle">
+            <input type="radio" id="btn-1" name="toggle" checked>
             <input type="radio" id="btn-2" name="toggle">
             <input type="radio" id="btn-3" name="toggle">
             <div class="slider-controls">
@@ -76,9 +76,7 @@
                     <div class="slide-number">01</div>
                     <p class="slide-descr">Самая длинная палка для селфи доступна в нашем магазине.
                     Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
-                    <div class="btn-border">
-                      <a class="btn" href="#">Подробнее</a>
-                    </div>
+                    <a class="btn btn-background" href="#">Подробнее</a>
                     <div class="slide-characteristic">
                       <div class="slide-characteristic-items">
                         <span class="feature">8,5 м</span>
@@ -96,37 +94,81 @@
                   </div>
                 </div>
               </div>
+              
+              <div class="slide">
+                <div class="slide-content clearfix">
+                    <div class="slide-image">
+                      <a href="#"><img src="img/slider-2.png" width="345" height="485" alt=""></a>
+                    </div>
+                    <div class="slide-text">
+                      <p class="title">Худеем правильно!</p>
+                      <div class="slide-number">01</div>
+                      <p class="slide-descr">Мотивирующие фитнесс-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
+                      <a class="btn btn-background" href="#">Подробнее</a>
+                      <div class="slide-characteristic">
+                        <div class="slide-characteristic-items">
+                          <span class="feature">48 часов</span>
+                          <span class="property">без подзарядки</span>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="slide">
+                <div class="slide-content clearfix">
+                  <div class="slide-image">
+                    <a href="#"><img src="img/slider-3.png" width="526" height="334" alt=""></a>
+                  </div>
+                  <div class="slide-text">
+                    <p class="title">Порхает как бабочка, жалит как пчела!</p>
+                    <div class="slide-number">01</div>
+                    <p class="slide-descr">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
+                    <a class="btn btn-background" href="#">Подробнее</a>
+                    <div class="slide-characteristic">
+                      <div class="slide-characteristic-items">
+                        <span class="feature">800 м</span>
+                        <span class="property">Дальность полёта</span>
+                      </div>
+                      <div class="slide-characteristic-items">
+                        <span class="feature">50 м</span>
+                        <span class="property">Радиус поражения</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
 
           <div class="other-menu">
             <div class="other-menu-items">
-              <a class="other-menu-item" href="#"></a>
+              <a class="other-menu-item item-1" href="#"></a>
               <p><a href="#">Виртуальная реальность</a></p>
             </div>
 
             <div class="other-menu-items">
-              <a class="other-menu-item" href="#"></a>
-              <p><a href="#">Моноподы для селфи</a></p>
+              <a class="other-menu-item item-2" href="#"></a>
+              <p><a href="#">Моноподы<br> для селфи</a></p>
             </div>
 
             <div class="other-menu-items">
-              <a class="other-menu-item" href="#"></a>
+              <a class="other-menu-item item-3" href="#"></a>
               <p><a href="#">Экшн с камерами</a></p>
             </div>
 
             <div class="other-menu-items">
-              <a class="other-menu-item" href="#"></a>
-              <p><a href="#">Фитнес с браслетами</a></p>
+              <a class="other-menu-item item-4" href="#"></a>
+              <p><a href="#">Фитнесc браслеты</a></p>
             </div>
 
             <div class="other-menu-items">
-              <a class="other-menu-item" href="#"></a>
+              <a class="other-menu-item item-5" href="#"></a>
               <p><a href="#">Умные часы</a></p>
             </div>
 
             <div class="other-menu-items">
-              <a class="other-menu-item" href="#"></a>
+              <a class="other-menu-item item-6" href="#"></a>
               <p><a href="#">Квадрокоптеры</a></p>
             </div>
           </div>
@@ -135,10 +177,10 @@
             <input type="radio" id="btn-one" name="click">
             <input type="radio" id="btn-two" name="click">
             <input type="radio" id="btn-three" name="click">
-            <div class="service-slider-menu">
-              <label for="btn-one">Доставка</label>  
-              <label for="btn-two">Гарантия</label>
-              <label for="btn-three">Кредит</label>
+            <div class="service-slider-controls">
+              <label class="btn" for="btn-one" checked>Доставка</label>  
+              <label class="btn" for="btn-two">Гарантия</label>
+              <label class="btn" for="btn-three">Кредит</label>
             </div>
             <div class="service-slider-text">
               <h2 class="title">Доставка</h2>
@@ -146,7 +188,7 @@
             </div>
           </div>
 
-          <div class="brands"><!-- картинки фоном css background -->
+          <div class="brands">
             <a class="brands-item brands-item-djl" href="#">DJl</a>
             <a class="brands-item brands-item-gadgets" href="#">Gadgets</a>
             <a class="brands-item brands-item-gopro" href="#">Go-pro</a>
@@ -164,7 +206,7 @@
                 <li>ЖелДорЭкспедиция</li>
               </ul>
               <div class="detail">
-                <a class="btn" href="#">Подробнее о нас</a>
+                <a class="btn btn-background" href="#">Подробнее о нас</a>
               </div>
             </div>  
             <div class="about-contacts">
@@ -178,7 +220,7 @@
                 <button class="map-popup-close" type="button" title="Закрыть">Закрыть</button>
               </div>-->
               <div class="detail">
-                <a class="btn" href="#">Напишите нам</a>
+                <a class="btn btn-background" href="#">Напишите нам</a>
               </div>
             </div>
           </div>
@@ -186,11 +228,11 @@
 
         <footer class="main-footer">
           <div class="footer-menu clearfix">
-            <div class="logo logo-title">Device</div>
+            <div class="logo-title">Device</div>
             <ul class="footer-menu-list">
-              <li><a href="#">Войти</a></li>
-              <li><a href="#">Сравнить</a></li>
-              <li><a href="#">Корзина</a></li>
+              <li><a class="login" href="#">Войти</a></li>
+              <li><a class="compare" href="#">Сравнить</a></li>
+              <li><a class="basket" href="#">Корзина</a></li>
             </ul>
           </div>
 
@@ -206,12 +248,12 @@
 
           <div class="footer-social clearfix">
             <div class="social">
-              <a class="social-btn social-btn-fb" href="#">Facebook</a>
-              <a class="social-btn social-btn-ins" href="#">Instagram</a>
-              <a class="social-btn social-btn-twit" href="#">Twitter</a>
+              <a class="social-btn social-btn-fb" href="#">Fb</a>
+              <a class="social-btn social-btn-ins" href="#">Ins</a>
+              <a class="social-btn social-btn-twit" href="#">Tw</a>
             </div>
             <div class="copyright">
-              <a class="academy" href="http://www.htmlacademy.ru/">HTML Academy</a>
+              <a class="academy" href="http://www.htmlacademy.ru/">Html Academy</a>
             </div>
           </div>
         </footer>
