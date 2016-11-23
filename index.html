@@ -34,7 +34,7 @@
                   <div class="catalog"><!-- скрытый блок -->
                     <ul class="catalog-items">
                       <li><a href="#">Виртуальная реальность</a></li>
-                      <li><a href="#">Моноподы для селфи</a></li>
+                      <li><a href="catalog.html">Моноподы для селфи</a></li>
                       <li><a href="#">Экшн-камеры</a></li>
                     </ul>
                     <ul class="catalog-items">
@@ -68,7 +68,7 @@
             <div class="slides">
               <div class="slide">
                 <div class="slide-content clearfix">
-                  <div class="slide-image">
+                  <div class="slide-image slide-image-one">
                     <a href="#"><img src="img/slider-1.png" width="384" height="486" alt=""></a>
                   </div>
                   <div class="slide-text">
@@ -97,18 +97,18 @@
               
               <div class="slide">
                 <div class="slide-content clearfix">
-                    <div class="slide-image">
+                    <div class="slide-image slide-image-two">
                       <a href="#"><img src="img/slider-2.png" width="345" height="485" alt=""></a>
                     </div>
                     <div class="slide-text">
-                      <p class="title">Худеем правильно!</p>
-                      <div class="slide-number">01</div>
+                      <p class="title">Худеем<br> правильно!</p>
+                      <div class="slide-number">02</div>
                       <p class="slide-descr">Мотивирующие фитнесс-браслеты помогут найти в себе силы не пропускать занятия и соблюдать диету.</p>
                       <a class="btn btn-background" href="#">Подробнее</a>
                       <div class="slide-characteristic">
                         <div class="slide-characteristic-items">
                           <span class="feature">48 часов</span>
-                          <span class="property">без подзарядки</span>
+                          <span class="property">Без подзарядки</span>
                         </div>
                     </div>
                   </div>
@@ -117,12 +117,12 @@
               
               <div class="slide">
                 <div class="slide-content clearfix">
-                  <div class="slide-image">
+                  <div class="slide-image slide-image-three">
                     <a href="#"><img src="img/slider-3.png" width="526" height="334" alt=""></a>
                   </div>
                   <div class="slide-text">
                     <p class="title">Порхает как бабочка, жалит как пчела!</p>
-                    <div class="slide-number">01</div>
+                    <div class="slide-number">03</div>
                     <p class="slide-descr">Этот обычный, на первый взгляд, квадрокоптер оснащен мощным лазером, замаскированным под стандартную камеру.</p>
                     <a class="btn btn-background" href="#">Подробнее</a>
                     <div class="slide-characteristic">
@@ -154,7 +154,7 @@
 
             <div class="other-menu-items">
               <a class="other-menu-item item-3" href="#"></a>
-              <p><a href="#">Экшн с камерами</a></p>
+              <p><a href="#">Экшн-камеры</a></p>
             </div>
 
             <div class="other-menu-items">
@@ -174,11 +174,11 @@
           </div>
 
           <div class="service-slider clearfix">
-            <input type="radio" id="btn-one" name="click">
+            <input type="radio" id="btn-one" name="click" checked>
             <input type="radio" id="btn-two" name="click">
             <input type="radio" id="btn-three" name="click">
             <div class="service-slider-controls">
-              <label class="btn" for="btn-one" checked>Доставка</label>  
+              <label class="btn" for="btn-one">Доставка</label>  
               <label class="btn" for="btn-two">Гарантия</label>
               <label class="btn" for="btn-three">Кредит</label>
             </div>
@@ -228,7 +228,7 @@
 
         <footer class="main-footer">
           <div class="footer-menu clearfix">
-            <div class="logo-title">Device</div>
+            <div class="logo-title"><a href="#">Device</a></div>
             <ul class="footer-menu-list">
               <li><a class="login" href="#">Войти</a></li>
               <li><a class="compare" href="#">Сравнить</a></li>
@@ -259,9 +259,9 @@
         </footer>
       </div>
     </div>
-    <!--<div class="feedback">
+    <div class="feedback">
       <button class="feedback-close" type="button" title="Закрыть">Закрыть</button>
-      <form action="#" method="post">
+      <form class="feedback-form" action="#" method="post">
         <div class="feedback-popup">
           <div class="feedback-contact">
             <label for="name">Ваше имя:</label>
@@ -278,6 +278,6 @@
           <button class="btn" type="submit">Отправить</button>
         </div>
       </form>
-    </div>-->
+    </div>
   </body>
 </html>
