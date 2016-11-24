@@ -213,14 +213,10 @@
               <h2 class="title">Контакты</h2>
               <p class="content">Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
               <div class="map">
-                <a href="#"><img src="img/map.jpg" width="560" height="222" alt="map"></a>
+                <a href="map.html"><img src="img/map.jpg" width="560" height="222" alt="map"></a>
               </div>
-              <!--<div class="map-popup">
-                <a href="#"><img src="http://placehold.it/960x580" alt="map"></a>
-                <button class="map-popup-close" type="button" title="Закрыть">Закрыть</button>
-              </div>-->
               <div class="detail">
-                <a class="btn btn-background" href="#">Напишите нам</a>
+                <a class="btn btn-background" href="feedback.html">Напишите нам</a>
               </div>
             </div>
           </div>
@@ -268,16 +264,19 @@
             <input type="text" name="name" id="name" placeholder="Представьтесь пожалуйста" required>
           </div>
           <div class="feedback-contact">
-            <label for="name">Ваш e-mail:</label>
-            <input type="text" name="name" id="name" placeholder="Для отправки ответа" required>
+            <label for="email">Ваш e-mail:</label>
+            <input type="text" name="name" id="email" placeholder="Для отправки ответа" required>
           </div>
           <div class="feedback-message">
             <label for="message">Текст письма:</label>
             <textarea id="message" placeholder="В свободной форме"></textarea>
           </div>
-          <button class="btn" type="submit">Отправить</button>
+          <button class="btn feedback-btn" type="submit">Отправить</button>
         </div>
       </form>
+    </div>
+    <div class="map-popup">
+      <button class="map-popup-close" type="button" title="Закрыть">Закрыть</button>
     </div>
   </body>
 </html>

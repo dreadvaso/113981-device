@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Device Обратная связь</title>
+    <link href="http://allfont.ru/allfont.css?fonts=open-sans-light" rel="stylesheet">
+    <link href="fonts/fonts.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="feedback">
+      <button class="feedback-close" type="button" title="Закрыть">Закрыть</button>
+      <form class="feedback-form" action="#" method="post">
+        <div class="feedback-popup">
+          <div class="feedback-contact">
+            <label for="name">Ваше имя:</label>
+            <input type="text" name="name" id="name" placeholder="Представьтесь пожалуйста" required>
+          </div>
+          <div class="feedback-contact">
+            <label for="email">Ваш e-mail:</label>
+            <input type="text" name="name" id="email" placeholder="Для отправки ответа" required>
+          </div>
+          <div class="feedback-message">
+            <label for="message">Текст письма:</label>
+            <textarea id="message" placeholder="В свободной форме"></textarea>
+          </div>
+          <button class="btn feedback-btn" type="submit">Отправить</button>
+        </div>
+      </form>
+    </div>  
+  </body>
+</html>
