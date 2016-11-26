@@ -3,10 +3,9 @@
   <head>
     <meta charset="utf-8">
     <title>Девайс</title>
-    <link href="http://allfont.ru/allfont.css?fonts=open-sans-light" rel="stylesheet">
-    <link href="fonts/fonts.css" rel="stylesheet">
-    <link href="css/normalize.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300&amp;subset=cyrillic-ext" rel="stylesheet">
+    <link href="css/normalize.min.css" rel="stylesheet">
+    <link href="css/style.min.css" rel="stylesheet">
   </head>
   <body>
     <div class="cut">
@@ -72,7 +71,7 @@
                     <a href="#"><img src="img/slider-1.png" width="384" height="486" alt=""></a>
                   </div>
                   <div class="slide-text">
-                    <p class="title">Делай селфи, как Бен Стиллер!</p>
+                    <p class="title">Делай селфи,<br> как Бен Стиллер!</p>
                     <div class="slide-number">01</div>
                     <p class="slide-descr">Самая длинная палка для селфи доступна в нашем магазине.
                     Восемь (Восемь, Карл!) метров длиной и весом всего 5 килограмм.</p>
@@ -213,10 +212,12 @@
               <h2 class="title">Контакты</h2>
               <p class="content">Вы можете забрать товар сами, заехав в наш офис. Заодно, вы сможете проверить работоспособность покупки. Всякое бывает.</p>
               <div class="map">
-                <a href="map.html"><img src="img/map.jpg" width="560" height="222" alt="map"></a>
+                <a href="map.html">
+                  <img src="img/map.jpg" width="560" height="222">
+                </a>
               </div>
               <div class="detail">
-                <a class="btn btn-background" href="feedback.html">Напишите нам</a>
+                <a class="btn btn-background btn-popup" href="feedback.html">Напишите нам</a>
               </div>
             </div>
           </div>
@@ -242,7 +243,7 @@
             <div class="contacts-data contact-data-right">Тел.: +7 (495) 495-95-95</div>
           </div>
 
-          <div class="footer-social clearfix">
+          <div class="clearfix">
             <div class="social">
               <a class="social-btn social-btn-fb" href="#">Fb</a>
               <a class="social-btn social-btn-ins" href="#">Ins</a>
@@ -278,5 +279,6 @@
     <div class="map-popup">
       <button class="map-popup-close" type="button" title="Закрыть">Закрыть</button>
     </div>
+    <script src="js/feedback-popup.min.js"></script>
   </body>
 </html>
